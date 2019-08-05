@@ -864,7 +864,13 @@
                 43,
                 37
             ],
-            "name" : "Femalehuman2"
+            "name" : "Femalehuman2",
+            "rotation" : [
+                0,
+                -0.3826834261417389,
+                0,
+                -0.9238795042037964
+            ]
         }
     ],
     "animations" : [
@@ -1967,7 +1973,8 @@
                 },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
-            }
+            },
+            "alphaMode":"BLEND"
         },
         {
             "doubleSided" : true,
@@ -1979,7 +1986,8 @@
                 },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.5
-            }
+            },
+            "alphaMode":"BLEND"
         },
         {
             "doubleSided" : true,
@@ -2027,7 +2035,8 @@
                 },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.8963636159896851
-            }
+            },
+            "alphaMode":"BLEND"
         }
     ],
     "meshes" : [
@@ -2160,12 +2169,12 @@
             "uri" : "eyelashes02.png"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "female_casualsuit01_diffuse",
             "uri" : "female_casualsuit01_diffuse.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "young_lightskinned_female_diffuse",
             "uri" : "young_lightskinned_female_diffuse.jpg"
         },
